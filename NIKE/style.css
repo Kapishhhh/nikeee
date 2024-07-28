@@ -1,0 +1,324 @@
+.logo {
+  display: flex;
+  height: 30px;
+  height: 30px;
+  margin-left: 5%;
+  margin-top: 10px;
+}
+.converse {
+  mix-blend-mode: color-burn;
+} 
+header {
+  display: flex;
+  gap: 70%;
+  background-color: #f5f5f5;
+}
+.top {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.top a {
+  text-decoration: none;
+  color: black;
+}
+.logoo {
+  margin-left: 2%;
+  margin-top: 1%;
+}
+heade {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+.logoo img {
+  height: 30px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 200;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+.nav a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.search {
+  border-radius: 20px;
+}
+
+.shopping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2%;
+  margin-top: 1%;
+  gap: 40px;
+}
+video {
+  width: 100%;
+  height: 100%;
+}
+.discription {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  margin: 20px 0px 70px 0px;
+}
+.section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.experience {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 8px;
+}
+.btn {
+  display: flex;
+  gap: 20px;
+}
+.shop-air {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 8px;
+}
+.products {
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+.products p {
+  margin-left: 30px;
+  color: #f5f5f5;
+  padding-top: 250px;
+}
+.products button {
+  margin-left: 30px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  padding: 5px;
+}
+.products {
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+.products p {
+  margin-left: 30px;
+  color: #f5f5f5;
+  padding-top: 250px;
+}
+.products button {
+  margin-left: 30px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  padding: 5px;
+}
+.product-1,
+.product-2,
+.product-3,
+.product-4 {
+  width: 50%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.product-1 {
+  background-image: url("https://cdna.lystit.com/photos/nike/447c81ea/nike-Pink-Alate-Minimalist-Light-support-Padded-Convertible-Sports-Bra.jpeg");
+}
+.product-2 {
+  background-image: url("https://images.asos-media.com/products/nike-running-react-pegasus-trail-4-trainers-in-off-white-and-fierce-pink/204887115-1-purple?$n_750w$&wid=750&hei=750&fit=crop");
+}
+.product-3 {
+  background-image: url("https://img.lazcdn.com/g/p/45f3087dda072dad62aca9678110af52.jpg_720x720q80.jpg");
+}
+.product-4 {
+  background-image: url("https://captaincreps.com/wp-content/uploads/2023/08/Image-2-17.10.08-scaled.jpg");
+}
+.photoes {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+.photo1,
+.photo2,
+.photo3 {
+  width: 33.33%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.photo1 {
+  background-image: url("https://i8.amplience.net/t/jpl/jd_product_list?plu=jd_668283_al&qlt=85&qlt=92&w=320&h=320&v=1&fmt=auto");
+}
+.photo2 {
+  background-image: url("https://i8.amplience.net/t/jpl/jd_product_list?plu=jd_668263_al&qlt=85&qlt=92&w=320&h=320&v=1&fmt=auto");
+}
+.photo3 {
+  background-image: url("https://images.footlocker.com/is/image/EBFL2/B7032133?wid=250&hei=250");
+}
+
+.winning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.shoess {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+
+  margin-bottom: 40px;
+}
+
+
+
+.shoe1, .shoe2, .shoe3, .shoe4, .shoe5, .shoe6{
+  width: 400px;
+  height: 200px;
+  font-size: larger;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  
+}
+
+
+.shoe1:hover, .shoe2:hover, .shoe3:hover, .shoe4:hover, .shoe5:hover, .shoe6:hover{
+  transform: scale(1.05);
+}
+
+.shoe1 {
+  background-image: url("https://media.sivasdescalzo.com/media/catalog/product/B/V/BV1358-002_sivasdescalzo-Nike-NIKE_ZOOM_VOMERO_5_SP-1674649190-1.jpg");
+}
+
+.shoe2 {
+  background-image: url("https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/9f684ace-3163-4227-8f85-2d2a067dd4f5/air-max-90-gore-tex-mens-shoes-cZwz8t.png");
+}
+
+.shoe3 {
+  background-image: url("https://i5.walmartimages.com/asr/d027d8a6-3200-4aac-868d-73e27364c1d0.0d9c2781431dca4b27fb0804c2932c6d.jpeg");
+}
+
+.shoe4 {
+  background-image: url("https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/b1bcbca4-e853-4df7-b329-5be3c61ee057/dunk-low-retro-shoe-66RGqF.png");
+}
+
+.shoe5 {
+  background-image: url("https://media.sivasdescalzo.com/media/catalog/product/D/Z/DZ3674-100_sivasdescalzo-Nike-Air_Force_1_Low_SP_Triple_White_x_Billie_Eilish-1679056663-1.jpg?quality=70&auto=webp&fit=bounds&width=420");
+}
+
+.shoe6 {
+  background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b8992c10-41af-4da9-b2b7-2799e74a095d/blazer-mid-77-jumbo-mens-shoes-s09S0Z.png");
+}
+
+
+.footer-top {
+  display: flex;
+  gap: 10px;
+  padding: 20px 200px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+.footer-top div {
+  flex: 1;
+}
+.footer-top h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.footer-top ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-top ul li {
+  margin-bottom: 5px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+}
+.footer-bottom div {
+  flex: 1;
+  margin: 0 10px;
+}
+.footer-bottom ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-bottom ul li {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 720px) {
+  header {
+    display: none;
+  }
+  heade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+  }
+  heade .nav {
+    display: none;
+  }
+  .products {
+    flex-direction: column;
+    height: auto;
+  }
+  .product-1,
+  .product-2,
+  .product-3,
+  .product-4 {
+    width: 100%;
+    height: auto;
+  }
+  .photoes {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .photo1,
+  .photo2,
+  .photo3 {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+  }
+}
+@media (min-width: 720px) {
+  .ham {
+    display: none;
+  }
+}
